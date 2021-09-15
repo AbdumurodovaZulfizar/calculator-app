@@ -64,4 +64,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 Copyright 2021 Zulfizar Abdumurodova
-- [MIT LICENSE](https://github.com/AbdumurodovaZulfizar/NestOne-Traditional-Restaurant/blob/build_webpage/LICENSE) for this project.
+- [MIT LICENSE](https://github.com/AbdumurodovaZulfizar/calculator-app/blob/setup_react_m1/LICENSE) for this project.
