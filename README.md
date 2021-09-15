@@ -34,7 +34,7 @@ cd calculator-app
 
 ### Live Version
 
-[Restaurant Page](https://calculator-app-zulfizar.herokuapp.com/)
+[Calculator App](https://calculator-app-zulfizar.herokuapp.com/)
 
 ## Authors
 
