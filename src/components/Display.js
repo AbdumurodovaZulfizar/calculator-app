@@ -1,7 +1,12 @@
 export default function Display() {
   return (
-    <h1>
-      React Documentation
-    </h1>
+    <div className="display" id="display">
+      <div className="previous">
+
+      </div>
+      <div className="current">
+
+      </div>
+    </div>
   );
 }
