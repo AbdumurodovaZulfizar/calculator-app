@@ -3,6 +3,11 @@
 
 ![Top Page Screenshot](./src/calculator.PNG)
 
+
+### About the project - Milestone 2
+
+On this milestone we I have implemented components - App, Display, Button, ButtonPanel. App is the root component that contains all of them without logic only for this milestone.
+
 This application is one of the Microverse requirements based on React library, also used, JS, ES6, Webpack, Node.js, npm, CSS. The calcultor does basic mathematical operations like `+`, `-`, `*` and `/`. Below see live version and try to check it.
 
 
