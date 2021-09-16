@@ -5,7 +5,7 @@ import ButtonPanel from './ButtonPanel';
 function App() {
   return (
     <>
-      <Display previousVal="" currentVal="0" />
+      <Display />
       <ButtonPanel />
     </>
   );
