@@ -1,5 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet) 
-# Calculator App
+# Calculator App 🔢
+
+![Top Page Screenshot](./src/calculator.PNG)
 
 This application is one of the Microverse requirements based on React library, also used, JS, ES6, Webpack, Node.js, npm, CSS. The calcultor does basic mathematical operations like `+`, `-`, `*` and `/`. Below see live version and try to check it.
 
