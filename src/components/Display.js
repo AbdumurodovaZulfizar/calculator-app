@@ -14,9 +14,12 @@ export default function Display({ previousVal, currentVal }) {
   );
 }
 
-/* eslint-disable*/
-
 Display.propTypes = {
   previousVal: PropTypes.string,
   currentVal: PropTypes.string,
-}
+};
+
+Display.defaultProps = {
+  previousVal: '',
+  currentVal: '0',
+};
