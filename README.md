@@ -42,16 +42,15 @@ git clone https://github.com/AbdumurodovaZulfizar/calculator-app.git
 - Webpack
 
 ## Setup
-- run : 
-```
-npm install
-``` to install all required node modules
+- run :
 
 ```
 npm install
-```
+``` 
 
--To see local version run:
+to install all required node modules
+
+- To see local version run:
 
 ```
 npm start
