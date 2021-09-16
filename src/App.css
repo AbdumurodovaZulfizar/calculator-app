@@ -7,6 +7,12 @@
   border: 3px solid rgb(0, 0, 0);
 }
 
+.width-half,
+.orange,
+.ordinary {
+  height: 80px;
+}
+
 .width-half {
   width: 50%;
 }
@@ -21,12 +27,6 @@
 
 .ordinary:hover {
   background-color: rgb(220, 218, 218);
-}
-
-.width-half,
-.orange,
-.ordinary {
-  height: 80px;
 }
 
 .color {
