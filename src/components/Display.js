@@ -1,12 +1,22 @@
-export default function Display() {
+import React from 'react';
+import PropTypes from 'prop-types';
+
+export default function Display({ previousVal, currentVal }) {
   return (
     <>
       <div className="">
-        <h5 className="previous m-0">12*2</h5>
+        <h5 className="previous m-0">{previousVal}</h5>
       </div>
       <div className="">
-        <h3 className="current m-0">24</h3>
+        <h3 className="current m-0">{currentVal}</h3>
       </div>
     </>
   );
+}
+
+/* eslint-disable*/
+
+Display.propTypes = {
+  previousVal: PropTypes.string,
+  currentVal: PropTypes.string,
 }
