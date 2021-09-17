@@ -11,7 +11,7 @@ const calculate = (object, buttonNames) => {
   } else if (
     buttonNames === '+'
     || buttonNames === '-'
-    || buttonNames === '*'
+    || buttonNames === 'x'
     || buttonNames === '/'
     || buttonNames === '%'
   ) {
