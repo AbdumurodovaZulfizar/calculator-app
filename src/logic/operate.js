@@ -8,15 +8,21 @@ const operate = (number1, number2, operation) => {
 
   switch (operation) {
     case '+':
-      return (Big(numberOne) + Big(numberTwo)).toString();
+      return (Big(numberOne).plus(Big(numberTwo))).toString();
     case '-':
-      return (Big(numberOne) - Big(numberTwo)).toString();
+      return (Big(numberOne).minus(Big(numberTwo))).toString();
     case '/':
-      return (Big(numberOne) / Big(numberTwo)).toString();
+      if (numberTwo === 0) {
+        return 'Error';
+      }
+      return (Big(numberOne).div(Big(numberTwo))).toString();
     case '*':
-      return (Big(numberOne) * Big(numberTwo)).toString();
+      return (Big(numberOne).times(Big(numberTwo))).toString();
     case '%':
-      return ((Big(numberOne) * Big(numberTwo)) / 100).toString();
+      if (numberTwo === 0) {
+        return 'Error';
+      }
+      return ((Big(numberOne).times(Big(numberTwo))).div(100)).toString();
     default:
       return null;
   }
