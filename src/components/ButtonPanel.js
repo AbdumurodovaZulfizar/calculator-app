@@ -1,8 +1,6 @@
 import React from 'react';
 import Button from './buttons/button';
 
-// /* eslint-disable */
-
 const ordinaries = ['AC', '+/-', '%', '7', '8', '9', '4', '5', '6', '1', '2', '3'];
 const lasts = ['.', '='];
 const oranges = ['/', 'x', '-', '+'];
