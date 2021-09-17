@@ -1,25 +1,28 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Display({ previousVal, currentVal }) {
+export default function Display({ total, next, operation }) {
   return (
     <>
       <div className="">
-        <h5 className="previous m-0">{previousVal}</h5>
-      </div>
-      <div className="">
-        <h3 className="current m-0">{currentVal}</h3>
+        <h5 className="previous m-0">
+          {total || '0'}
+          {operation}
+          {next}
+        </h5>
       </div>
     </>
   );
 }
 
 Display.propTypes = {
-  previousVal: PropTypes.string,
-  currentVal: PropTypes.string,
+  total: PropTypes.string,
+  next: PropTypes.string,
+  operation: PropTypes.string,
 };
 
 Display.defaultProps = {
-  previousVal: '',
-  currentVal: '0',
+  total: '',
+  next: '',
+  operation: '',
 };

@@ -16,7 +16,7 @@ const operate = (number1, number2, operation) => {
         return 'Error';
       }
       return (Big(numberOne).div(Big(numberTwo))).toString();
-    case '*':
+    case 'x':
       return (Big(numberOne).times(Big(numberTwo))).toString();
     case '%':
       if (numberTwo === 0) {
