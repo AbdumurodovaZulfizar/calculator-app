@@ -1,7 +1,25 @@
-export default function Display() {
+import React from 'react';
+import PropTypes from 'prop-types';
+
+export default function Display({ previousVal, currentVal }) {
   return (
-    <h1>
-      React Documentation
-    </h1>
+    <>
+      <div className="">
+        <h5 className="previous m-0">{previousVal}</h5>
+      </div>
+      <div className="">
+        <h3 className="current m-0">{currentVal}</h3>
+      </div>
+    </>
   );
 }
+
+Display.propTypes = {
+  previousVal: PropTypes.string,
+  currentVal: PropTypes.string,
+};
+
+Display.defaultProps = {
+  previousVal: '',
+  currentVal: '0',
+};
