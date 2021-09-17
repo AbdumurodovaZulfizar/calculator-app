@@ -8,8 +8,6 @@ const calculate = (object, buttonNames) => {
     total = '';
     next = '';
     operation = null;
-  } else if (buttonNames === '.') {
-    next = next === null ? `${0}${buttonNames}` : `${next}${buttonNames}`;
   } else if (
     buttonNames === '+'
     || buttonNames === '-'
