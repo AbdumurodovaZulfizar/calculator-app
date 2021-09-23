@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import '../index.css';
 
 const Home = () => (
-  <div className='home-page'>
+  <div className="home-page">
     <h2>This is Math Magician Website`&apos`s Home Page</h2>
     <div>
       <p>
