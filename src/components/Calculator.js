@@ -6,7 +6,7 @@ const Calculator = () => (
   <div>
     <h2>Calculator App</h2>
     <div>
-      <App />
+      <App className="App" />
     </div>
   </div>
 );

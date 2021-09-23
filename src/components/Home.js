@@ -3,7 +3,7 @@ import '../index.css';
 
 const Home = () => (
   <div className="home-page">
-    <h2>This is Math Magician Website`&apos`s Home Page</h2>
+    <h2 className="text-dark">This is Math Magician Website`s Home Page</h2>
     <div>
       <p>
         Nothing to say!
