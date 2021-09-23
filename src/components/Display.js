@@ -5,7 +5,7 @@ export default function Display({ total, next, operation }) {
   return (
     <>
       <div className="">
-        <h5 className="previous m-0">
+        <h5 className="previous m-0 font">
           {total || '0'}
           {operation}
           {next}

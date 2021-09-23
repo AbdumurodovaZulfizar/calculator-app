@@ -8,8 +8,13 @@
   height: 80px;
 }
 
-.width-half {
+.App {
   width: 50%;
+  margin: 10px auto;
+}
+
+.width-half {
+  width: 66.66%;
 }
 
 .width-half:hover {
@@ -17,7 +22,7 @@
 }
 
 .ordinary {
-  width: 25%;
+  width: 33.333%;
 }
 
 .ordinary:hover {
