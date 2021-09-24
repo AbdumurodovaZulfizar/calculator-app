@@ -7,4 +7,16 @@ describe('tests for calculate function', () => {
     expect(newData.operation).toEqual('/');
     expect(newData.next).toEqual('');
   });
+
+  test('should return empty values when AC clicked', () => {
+    const data = { total: 12, next: '8', operation: '+' };
+    const newdata = calculate(data, 'AC');
+    expect(newdata).toEqual({ total: '', next: '', operation: null });
+  });
+
+  test('should change nexts sign', () => {
+    const data = { total: 12, next : '8', operation: '+'};
+    const newdata = calculate(data, '+/-');
+    expect(newdata).toEqual({ total: 12, next: '-8', operation: '+'});
+  });
 });
