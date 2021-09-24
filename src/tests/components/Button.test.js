@@ -5,7 +5,7 @@ import Button from '../../components/buttons/button';
 
 test('creates button element', () => {
   render(<Button buttonNames="5" />);
-  const newButton = screen.getByTestId('button');
+  const newButton = screen.getByRole('button');
   expect(newButton).toHaveTextContent('5');
 });
 

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Button = ({
   buttonNames, className, classNameTwo, handleClick,
 }) => (
-  <button className={className} type="button" onClick={() => handleClick(buttonNames)} data-testid="button">
+  <button className={className} type="button" onClick={() => handleClick(buttonNames)}>
     <h3 className={classNameTwo}>{buttonNames}</h3>
   </button>
 );
