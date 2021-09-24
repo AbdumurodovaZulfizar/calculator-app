@@ -15,8 +15,14 @@ describe('tests for calculate function', () => {
   });
 
   test('should change nexts sign', () => {
-    const data = { total: 12, next : '8', operation: '+'};
+    const data = { total: 12, next: '8', operation: '+' };
     const newdata = calculate(data, '+/-');
     expect(newdata).toEqual({ total: 12, next: '-8', operation: '+'});
+  });
+
+  test('should put the value to total when = clicked', () => {
+    const data = { total: 12, next: '8', operation: '+' };
+    const newdata = calculate(data, '=');
+    expect(newdata).toEqual({ total: '20', next: '', operation: null });
   });
 });
