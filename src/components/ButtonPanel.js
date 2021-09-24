@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import Button from './buttons/button';
 
 const ordinaries = ['AC', '+/-', '%', '7', '8', '9', '4', '5', '6', '1', '2', '3'];
-const lasts = ['.', '='];
-const oranges = ['/', 'x', '-', '+'];
+const lasts = ['.'];
+const oranges = ['/', 'x', '-', '+', '='];
 
 const ButtonPanel = ({ handleClick }) => (
   <div className="buttonPanel row p-0 m-0">
