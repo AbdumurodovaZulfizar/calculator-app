@@ -51,6 +51,11 @@ to install all required node modules
 npm start
 ```
 
+To run tests: 
+```
+npm run test
+```
+
 ### Live Version
 
 [Calculator App](https://calculator-app-zulfizar.herokuapp.com/)
