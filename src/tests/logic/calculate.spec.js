@@ -26,13 +26,13 @@ describe('tests for calculate function', () => {
     expect(newdata).toEqual({ total: '20', next: '', operation: null });
   });
 
-  test('should calculate according to operation', () => {
+  test('should change operation according to next', () => {
     const data = { total: 12, next: '8', operation: '+' };
     const newdata = calculate(data, '-');
     expect(newdata).toEqual({ total: 12, next: '8', operation: null });
   });
 
-  test('should calculate according to operation', () => {
+  test('should change operation according to next', () => {
     const data = { total: 12, next: '', operation: '+' };
     const newdata = calculate(data, '-');
     expect(newdata).toEqual({ total: 12, next: '', operation: '-' });
