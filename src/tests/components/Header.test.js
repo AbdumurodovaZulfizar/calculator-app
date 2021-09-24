@@ -12,4 +12,4 @@ test('Creates HEader for website', () => {
   );
   const myHeader = screen.getByTestId('header');
   expect(myHeader).toHaveTextContent('Math Magicians');
-})
+});
