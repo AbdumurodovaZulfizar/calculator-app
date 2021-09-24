@@ -31,4 +31,10 @@ describe('tests for calculate function', () => {
     const newdata = calculate(data, '-');
     expect(newdata).toEqual({ total: 12, next: '8', operation: null });
   });
+
+  test('should calculate according to operation', () => {
+    const data = { total: 12, next: '', operation: '+' };
+    const newdata = calculate(data, '-');
+    expect(newdata).toEqual({ total: 12, next: '', operation: '-' });
+  });
 });
