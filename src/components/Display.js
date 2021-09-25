@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export default function Display({ total, next, operation }) {
   return (
     <>
-      <div className="">
+      <div data-testid="display">
         <h5 className="previous m-0 font">
           {total || '0'}
           {operation}

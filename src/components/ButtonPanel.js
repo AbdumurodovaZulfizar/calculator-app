@@ -7,7 +7,7 @@ const lasts = ['.'];
 const oranges = ['/', 'x', '-', '+', '='];
 
 const ButtonPanel = ({ handleClick }) => (
-  <div className="buttonPanel row p-0 m-0">
+  <div className="buttonPanel row p-0 m-0" data-testid="panel">
     <div className="ordinaries col-9 p-0">
       {ordinaries.map((numbers) => (
         <Button
